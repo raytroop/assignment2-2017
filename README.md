@@ -1,3 +1,8 @@
+credits of solution to [HugoZHL](https://github.com/HugoZHL/dlsys-assignment2-solution/)
+
+---
+
+
 # Assignment 2: GPU Graph Executor
 
 In this assignment, we would implement a GPU graph executor that can train simple neural nets such as multilayer perceptron models.
@@ -16,7 +21,7 @@ Key concepts and data structures that we would need to implement are
 
 - src/dlarray.h: header for GPU array.
 - src/c_runtime_api.h: C API header for GPU array and GPU kernels.
-- src/gpu_op.cu: cuda implementation of kernels 
+- src/gpu_op.cu: cuda implementation of kernels
 
 ## What you need to do?
 Understand the code skeleton and tests. Fill in implementation wherever marked `"""TODO: Your code here"""`.
@@ -53,7 +58,7 @@ nosetests -v tests/test_gpu_op.py
 
 Run neural nets training and testing with
 ```bash
-# see cmd options with 
+# see cmd options with
 # python tests/mnist_dlsys.py -h
 
 # run logistic regression on numpy
